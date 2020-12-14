@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.this-head{
+    background-image: linear-gradient(to left, #1f3b96be , #d81212b4);
+   box-shadow: 2px 2px 22px  #185a9d;
+  padding: 0 326px;
+   
+}
+
+
+.logo1{
+    position: relative;
+    top: 35px;
+    right: 368px;
+   
+}
+
+.img1{
+    
+    height: auto;
+    width: 110px;
+    box-shadow: 2px 2px 33px #153ba5;
+    border-radius: 10px;
+}
+
+
+.this-head .h11{
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+     bottom: 44px;
+     left: 37px;
+   text-shadow: 2px 3px 14px rgba(32, 42, 190, 0.726);
+    
+}
+
+
+
+.this-head .h11 span{
+    animation: animate 1s linear infinite;
+} 
+
+
+
+
+.this-head .h11 span
+{
+               animation-delay: 0s;
+}
+
+
+
+@keyframes animate
+{
+    0%,100%
+    {
+             color: rgb(255, 218, 117);
+             filter: blur(4px);
+             text-shadow: 0 0 10px #00b3ff,        
+
+    }
+    5%,95%
+    {
+             color: rgb(31, 25, 116);
+             filter: blur(0px);
+             text-shadow: none,
+    }
+}
+
+
+
+
+.full-form{
+    text-align: center;
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+    padding: 20px 10px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.this-f{
+    position: relative;
+    right: 175px;
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+   
+}
+.this-l{
+    position: relative;
+    right: 175px;
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.this-p1{
+    position: relative;
+    right: 158px;
+    font-size: 18px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.this-e{
+    position: relative;
+    right: 193px;
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.this-u{
+    position: relative;
+    right: 178px;
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.this-p2{
+    position: relative;
+    right: 178px;
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.this-c{
+    position: relative;
+    right: 140px;
+    font-size: 18px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.this-y1{
+    position: relative;
+    right: 131px;
+    font-size: 18px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.this-y2{
+    position: relative;
+    right: 175px;
+    font-size: 18px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+
+.this-gender{
+    position: relative;
+    right: 187px;
+    font-size: 19px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+input{
+    outline: none;
+    padding: 11px 141px;
+    border: 2px solid rgba(15, 15, 15, 0.274);
+    background: rgba(0, 0, 0, 0.048);
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: rgb(0, 0, 0);
+   
+}
+
+
+.select1{
+    outline: none;
+    padding: 12px 165px;
+    border: 2px solid rgba(15, 15, 15, 0.274);
+    background: rgba(0, 0, 0, 0.048);
+}
+
+.select2{
+    outline: none;
+    padding: 12px 192px;
+    border: 2px solid rgba(15, 15, 15, 0.274);
+    background: rgba(0, 0, 0, 0.048);
+}
+
+option{
+    background: linear-gradient(to right, #43cea2 , #18739d);
+}
+
+button{
+    padding: 17px 61px;
+    font-size: 18px;
+   background: rgb(39, 129, 58);
+   color: white;
+   border-radius: 10px 10px;
+   border: none;
+   outline: none;
+   
+}
+
+.button1{
+    position: relative;
+    right: 20px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.button2{
+    position: relative;
+    left: 20px;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+button:hover{
+    background: linear-gradient(to right, #d82323 , #18739d);
+    transition: .2s;
+    padding: 17px 66px;
+    cursor: pointer;
+    
+}
+
+input:hover{
+    outline: none;
+    padding: 11px 141px;
+    border: 2px solid rgba(41, 44, 190, 0.897);
+    transition: .4s;
+}
+
+.select1:hover{
+    outline: none;
+    padding: 12px 167px;
+    border: 2px solid rgba(54, 185, 27, 0.445);
+    cursor: pointer;
+}
+
+.select2:hover{
+    outline: none;
+    padding: 12px 192px;
+    border: 2px solid rgba(54, 185, 27, 0.445);
+    cursor: pointer;
+}
+
+.end-title{
+    background-image: linear-gradient(to right, #43ce4f , #9d1818);
+    padding: 25px 10px;
+   
+}
+
+
+.logo2{
+    position: relative;
+    top: 56px;
+    right: 121px;
+    display: inline-block;
+   
+}
+
+.img2{
+    height: auto;
+    width: 40px;
+    border-radius: 50%;
+}
